@@ -1,12 +1,14 @@
-# Solutions Architect Associate Docs
+# AWS Docs
 
-This repo contains the notes for Tom learning the Solutions Architect Associate exam. This site is based on Syntax which is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+This repo contains the code for the AWS Docs, a repo that can be reused for AWS Certification exam to keep notes. This site is based on Syntax which is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
-To get started with this template, first install the npm dependencies:
+To get started with this template, first clone it down and then install the npm dependencies:
 
 ```bash
+git clone git@github.com:tmhn/aws-docs.git LOCAL_REPO_NAME
+cd LOCAL_REPO_NAME
 npm install
 cp .env.example .env.local
 ```

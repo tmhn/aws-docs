@@ -7,6 +7,7 @@ import { ButtonLink } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
+import strings from '@/strings'
 
 const codeLanguage = 'javascript'
 const code = `export default {
@@ -41,14 +42,14 @@ export function Hero() {
             </div>
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Solutions Architect Associate Docs.
+                {strings.general.shortName} Docs.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Tom<span>&#39;</span>s notes and docs for the SAA exam.
+                {strings.general.blurb}
               </p>
               <div className="mt-8 flex space-x-4 md:justify-center lg:justify-start">
                 <ButtonLink href="/">Get started</ButtonLink>
-                <ButtonLink href="/" variant="secondary">
+                <ButtonLink href={strings.general.githubURL} variant="secondary">
                   View on GitHub
                 </ButtonLink>
               </div>
